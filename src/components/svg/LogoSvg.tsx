@@ -7,29 +7,16 @@ export const LogoSvg = ({ size = 32, ...props }: LogoSvgProps) => {
     <svg
       width={size}
       height={size}
-      viewBox="0 0 120 120"
+      viewBox="0 0 100 100"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M112.448 91.7993L80.0827 80.3244L66.4131 11.9822L112.448 91.7993ZM39.9175 80.3244L7.55176 91.7993L53.5872 11.9822L39.9175 80.3244ZM73.7228 78.6076H46.2774L60.0001 9.99994L73.7228 78.6076Z"
-        fill="currentColor"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M73.7225 78.6076H46.2771L59.9998 9.99994L73.7225 78.6076Z"
-        fill="currentColor"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M45.7581 84.5074H74.2419L111.032 97.5576L82.9734 110H37.0265L8.96753 97.5576L45.7581 84.5074Z"
-        fill="currentColor"
-      />
+    <path fillRule="evenodd" clipRule="evenodd" d="M32.0095 54.3709L0 30.593L26.5738 71.3321L32.0095 54.3709Z" fill="currentColor"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M45.2526 64.2401L13.1781 88.0194L59.3462 74.7392L45.2526 64.2401Z" fill="currentColor"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M58.4518 54.4394L70.6338 92.9871L72.5973 43.9671L58.4518 54.4394Z" fill="currentColor"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M53.4232 38.5008L93 38.5025L48.071 21.6569L53.4232 38.5008Z" fill="currentColor"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M49.4055 1.6195e-06L19.5687 38.5052L37.0646 38.4869L49.4055 1.6195e-06Z" fill="currentColor"/>
     </svg>
   );
 };

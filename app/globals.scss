@@ -2,74 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   :root {
-    --background: 240 5% 96%;
-    --foreground: 20 14.3% 4.1%;
-    --card: 240 4% 94%;
-    --card-foreground: 20 14.3% 4.1%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
-    --popover-foreground: 20 14.3% 4.1%;
-    --primary: 24.6 95% 53.1%;
-    --primary-foreground: 26 83.3% 14.1%;
-    --secondary: 47.9 95.8% 53.1%;
-    --secondary-foreground: 24 9.8% 10%;
-    --muted: 60 4.8% 95.9%;
-    --muted-foreground: 25 5.3% 44.7%;
-    --accent: 240 4% 83%;
-    --accent-foreground: 24 9.8% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 60 9.1% 97.8%;
-    --border: 240 8% 85%;
-    --input: 240 8% 85%;
-    --ring: 20 14.3% 4.1%;
-    --radius: 0.5rem;
-
-    // NOW.TS added tokens
-    // Want to change ? Use the feedback generator : https://ui.jln.dev/feedback-colors-generator-for-shadcn-ui
-    --success: 151deg 55% 41%;
-    --success-foreground: 137deg 72% 94%;
-
-    --warning: 24deg 94% 50%;
-    --warning-foreground: 24deg 97% 93%;
-
-    --info: 221.2 83.2% 53.3%;
-    --info-foreground: 210 40% 98%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 14 99% 68%;
+    --destructive-foreground: 14 99% 8%;
+    --success: 109 99% 68%;
+    --success-foreground: 109 99% 8%;
+    --warning: 44 99% 68%;
+    --warning-foreground: 44 99% 8%;
+    --info: 198 99% 68%;
+    --info-foreground: 198 99% 8%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --radius: 0.75rem;
   }
 
   .dark {
-    --background: 240 6% 10%;
-    --foreground: 60 9.1% 97.8%;
-    --card: 240 4% 16%;
-    --card-foreground: 60 9.1% 97.8%;
-    --popover: 240 4% 10%;
-    --popover-foreground: 60 9.1% 97.8%;
-    --primary: 47.9 95.8% 53.1%;
-    --primary-foreground: 26 83.3% 14.1%;
-    --secondary: 20.5 90.2% 48.2%;
-    --secondary-foreground: 60 9.1% 97.8%;
-    --muted: 12 6.5% 15.1%;
-    --muted-foreground: 24 5.4% 63.9%;
-    --accent: 12 6.5% 15.1%;
-    --accent-foreground: 60 9.1% 97.8%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 60 9.1% 97.8%;
-    --border: 240 4% 22%;
-    --input: 240 4% 22%;
-    --ring: 35.5 91.7% 32.9%;
-
-    // NOW.TS added tokens
-    // Want to change ? Use the feedback generator : https://ui.jln.dev/feedback-colors-generator-for-shadcn-ui
-    --success: 151deg 55% 41.5%;
-    --success-foreground: 137 72% 94%;
-
-    --warning: 24deg 94% 50%;
-    --warning-foreground: 24deg 97% 93.2%;
-
-    --info: 217.2 91.2% 59.8%;
-    --info-foreground: 222.2 47.4% 11.2%;
+    --background: 0 0% 11%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 5 99% 9%;
+    --destructive-foreground: 5 99% 69%;
+    --success: 91 99% 9%;
+    --success-foreground: 91 99% 49%;
+    --warning: 38 99% 9%;
+    --warning-foreground: 38 99% 49%;
+    --info: 221 99% 9%;
+    --info-foreground: 221 99% 69%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
   }
 }
+
 
 @layer base {
   * {
